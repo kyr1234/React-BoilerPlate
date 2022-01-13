@@ -1,13 +1,9 @@
-import Navabar from './Components/Navbar'
-import Shop from './Components/Shop'
+import React from "react"
 function App() {
   return (
-    <>
-      <div className="App">
-        <Navabar />
-      </div>
-      <Shop />
-    </>
+    <div className="App">
+      <h1 className="bg-black font-bold">Grllo</h1>
+    </div>
   )
 }
 
